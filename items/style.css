@@ -9,9 +9,9 @@ html {
 body {
   box-sizing: border-box;
   font: normal 16px "san-serif";
-  color: #666666;
+  color: #ffffff;
 border: solid 1px #000000;
-  background-color: #fce9e9;
+  background-color: #000000;
 margin: 0 auto;
 max-width: 800px;
 padding: 30px;
@@ -28,14 +28,14 @@ ul {
 p {
 
   font: normal 16px "san-serif";
-    color: #666666;
+    color: #ffffff;
   margin-top: 10px;
 }
 
 h1 {
   text-align: center;
   font: bold 26px "san-serif";
-    color: #666666;
+    color: #ffffff;
   font-variant: small-caps;
   margin-bottom: 0px
 
@@ -45,13 +45,13 @@ h2 {
   Margin-top: 0px;
   text-align: center;
   font: normal 16px "san-serif";
-  color: #666666
+  color: #ffffff
 
 
 }
 h3 {
   font: bold 16px "san-serif";
-  color: #666666;
+  color: #ffffff;
   margin-bottom: 0px;
 
 }
