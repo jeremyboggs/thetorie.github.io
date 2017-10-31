@@ -55,6 +55,16 @@ h3 {
   margin-bottom: 0px;
 
 }
+
+  .site-title, .site-title:visited {
+      color: #FFFFFF;
+  }
+
+  a:visited {
+      color: #FFFFFF;
+
+
+}
 .date{
     float:right;
     text-align: right;
