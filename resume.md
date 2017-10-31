@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 <body>
-<h1><img src="items/avocado.gif" height="50px" width="50px" border="0">Victoria Clark<img src="items/avocado.gif" height="50px" width="50px" border="0"></h1>
+<h1><img src="assets/avocado.gif" height="50px" width="50px" border="0">Victoria Clark<img src="assets/avocado.gif" height="50px" width="50px" border="0"></h1>
 <h2>300 4th St SE Apt. 23
 <br>Charlottesville, VA 22902
 <br>victoria.clark@virginia.edu</h2>
