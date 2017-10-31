@@ -65,6 +65,10 @@ h3 {
 
 
 }
+.site-nav .page-link {
+  color: #FFFFFF
+}
+
 .date{
     float:right;
     text-align: right;
