@@ -3,13 +3,13 @@ property: value;
 }
 */
 html {
-  background-image: url('firebackground.gif');
+  background-image: url('verticle-waves.png');
   padding: 20px 10%;
 }
 body {
   box-sizing: border-box;
   font: normal 16px "helvetica";
-  color: #fffff0;
+  color: #ffffff;
 border: solid 1px #000000;
   background-color: #000000;
 margin: 0 auto;
