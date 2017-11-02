@@ -53,8 +53,8 @@ a:visited {
     font-weight: 500;
     font: "helvetica neue";
     color: #000000;
-    margin-bottom: 5px;
-
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 .page-content {
     padding: 0px 0PX;
