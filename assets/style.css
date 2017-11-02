@@ -6,17 +6,51 @@ html {
   background-image: url('vertical-waves.png');
   padding: 20px 10%;
 }
+
+
+a{
+    color: #888888;
+
+}
+
+a:visited {
+  color: #888888;
+}
+
+.site-header {
+  border-top: 0px solid;
+  border-bottom: 0px solid;
+  font: normal 16px "helvetica neue";
+}
+
+.site-footer {
+    border-top: 0px solid;
+    padding: 30px 0;
+    font: normal 16px "helvetica neue";
+}
+
+.post-link, .post-link:visited {
+    display: block;
+    font-size: 24px;
+    font: normal 16px "helvetica neue";
+    color: #888888
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #888888;
+
+}
+
 body {
   box-sizing: border-box;
-  font: normal 16px "helvetica";
-  color: #ffffff;
-border: solid 1px #000000;
-  background-color: #000000;
+  font: normal 16px "helvetica neue";
+  color: #888888;
+border: solid 2px #000000;
+  background-color: #f4f4f4;
 margin: 0 auto;
 max-width: 800px;
 padding: 30px;
-box-shadow: 10px 10px;
-
 
 }
 
@@ -27,16 +61,15 @@ ul {
 
 p {
 
-  font: normal 16px "helvetica";
-    color: #ffffff;
+  font: normal 16px "helvetica neue";
+    color: #888888;
   margin-top: 10px;
 }
 
 h1 {
   text-align: center;
-  font: bold 26px "helvetica";
-    color: #ffffff;
-  font-variant: small-caps;
+  font: normal 26px "helvetica neue";
+    color: #888888;
   margin-bottom: 0px
 
 }
@@ -44,33 +77,38 @@ h1 {
 h2 {
   Margin-top: 0px;
   text-align: center;
-  font: normal 16px "helvetica";
-  color: #ffffff
+  font: normal 16px "helvetica neue";
+  color: #888888
 
 
 }
 h3 {
-  font: bold 16px "helvetica";
-  color: #ffffff;
+  font: normal 16px "helvetica neue";
+  color: #888888;
   margin-bottom: 0px;
 
 }
 
   .site-title, .site-title:visited {
-      color: #FFFFFF;
+      color: #888888;
+      font: normal 30px "helvetica neue";
   }
 
-  a {
-      color: #FFFFFF;
 
+.site-nav .page-link, .site-nav:visited {
+  color: #888888;
+  font: normal 16px "helvetica neue";
 
 }
-.site-nav .page-link {
-  color: #FFFFFF
+
+.post-title {
+    font-size: 26px;
+    letter-spacing: 0px;
+    line-height: 1;
 }
 
 .date{
-    float:right;
+    float: right;
     text-align: right;
 
 }
