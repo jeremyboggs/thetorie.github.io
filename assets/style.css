@@ -144,7 +144,7 @@ h2 {
 .post-title {
     font-size: 26px;
     letter-spacing: 0px;
-    line-height: 1px;
+    line-height: -1px;
 }
 
 .post-header{
