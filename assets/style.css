@@ -3,8 +3,7 @@ property: value;
 }
 */
 html {
-  background-image: url('vertical-waves.png');
-  padding: 20px 10%;
+
 }
 
 
@@ -18,9 +17,15 @@ a:visited {
 }
 
 .site-header {
-  border-top: 0px solid;
-  border-bottom: 0px solid;
+  box-sizing: border-box;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
   font: normal 16px "helvetica neue";
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  padding: 25px;
 }
 
 .site-footer {
@@ -33,24 +38,48 @@ a:visited {
     display: block;
     font-size: 24px;
     font: normal 16px "helvetica neue";
-    color: #888888
+    color: #000000
+}
+
+.page-content {
+    padding: 30px 0;
+    box-sizing: border-box;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    font: normal 16px "helvetica neue";
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 25px;
+
 }
 
 .post-meta {
     font-size: 14px;
-    color: #888888;
+    color: #000000;
 
 }
 
 body {
-  box-sizing: border-box;
-  font: normal 16px "helvetica neue";
-  color: #888888;
-border: solid 2px #000000;
-  background-color: #f4f4f4;
-margin: 0 auto;
-max-width: 800px;
-padding: 30px;
+    font: 400 16px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+main.css:1
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
 
 }
 
@@ -62,14 +91,14 @@ ul {
 p {
 
   font: normal 16px "helvetica neue";
-    color: #888888;
+    color: #000000;
   margin-top: 10px;
 }
 
 h1 {
   text-align: center;
   font: normal 26px "helvetica neue";
-    color: #888888;
+    color: #000000;
   margin-bottom: 0px
 
 }
@@ -78,25 +107,25 @@ h2 {
   Margin-top: 0px;
   text-align: center;
   font: normal 16px "helvetica neue";
-  color: #888888
+  color: #000000
 
 
 }
 h3 {
   font: normal 16px "helvetica neue";
-  color: #888888;
+  color: #000000;
   margin-bottom: 0px;
 
 }
 
   .site-title, .site-title:visited {
-      color: #888888;
+      color: #000000;
       font: normal 30px "helvetica neue";
   }
 
 
 .site-nav .page-link, .site-nav:visited {
-  color: #888888;
+  color: #000000;
   font: normal 16px "helvetica neue";
 
 }
