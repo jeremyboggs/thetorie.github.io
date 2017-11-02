@@ -48,6 +48,14 @@ a:visited {
     color: #000000
 }
 
+.post-content  h3 {
+    font-size: 20px;
+    font-weight: 500;
+    font: "helvetica neue";
+    color: #000000;
+    margin-bottom: 5px;
+
+}
 .page-content {
     padding: 0px 0PX;
     box-sizing: border-box;
@@ -124,15 +132,8 @@ h2 {
   color: #000000
 
 
-}
-h3 {
-  font: normal 16px "helvetica neue";
-  color: #000000;
-  margin-bottom: 0px;
 
 }
-
-
 
 .page-link {
   color: #000000;
@@ -144,6 +145,11 @@ h3 {
     font-size: 26px;
     letter-spacing: 0px;
     line-height: 1px;
+}
+
+.post-header{
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .date{
