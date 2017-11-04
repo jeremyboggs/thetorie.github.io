@@ -7,8 +7,7 @@ html {
 }
 
 .wrapper {
-    max-width: none;
-    max-width: none;
+
     padding-right: 0px;
     padding-left: 0px;
     padding-bottom: 0px;
@@ -35,8 +34,13 @@ a:hover {
   font: normal 16px "helvetica neu";
   background-image: url('little_pluses.png');
   background-color: #fffdfe;
-  margin: 0px auto;
+  margin: 0px 0px;
   padding: 25px;
+  min-height: 55.95px;
+position: absolute;
+left: 0px;
+width: 100%;
+
 }
 
 .site-footer {
@@ -67,7 +71,7 @@ a:hover {
     font: normal 14px "Fauna One",serif;
     background-color: #fffdfe;
     margin: 0 auto;
-    padding: 25px;
+    padding: 70px 25px 25px 25px;
       max-width: 900px;
 
 }
