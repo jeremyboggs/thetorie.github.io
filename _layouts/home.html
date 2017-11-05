@@ -3,12 +3,12 @@ layout: default
 ---
 
 <link href="https://fonts.googleapis.com/css?family=Fauna+One" rel="stylesheet">
-
 <div class="home">
 
   {{ content }}
 
   <ul class="post-list">
+    <h1>Updates</h1>
     {% for post in site.posts %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%-d %b %Y" %}
