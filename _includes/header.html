@@ -1,10 +1,11 @@
-<header class="site-header" role="banner">
-  <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
-
-  <div class="wrapper">
+<header class="site-sidebar">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="site-title" href="{{ "/" }}">{{ site.title | escape }}</a>
+    <a class="site-title" href="{{ "/" }}">PRAXIS
+</a>
+<h3>2017-2018</h3>
 
     {% if page_paths %}
       <nav class="site-nav">
@@ -20,16 +21,15 @@
         </label>
 
         <div class="trigger">
-            <a class="page-link" href="https://thetorie.github.io/">Updates</a>
+
           {% for path in page_paths %}
             {% assign my_page = site.pages | where: "path", path | first %}
             {% if my_page.title %}
 
-            <a class="page-link" href="{{ my_page.url }}">{{ my_page.title | escape }}</a>
+            <br><a class="page-link" href="{{ my_page.url }}">{{ my_page.title | escape }}</a>
             {% endif %}
           {% endfor %}
         </div>
       </nav>
     {% endif %}
-  </div>
 </header>

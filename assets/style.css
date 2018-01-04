@@ -1,4 +1,4 @@
-/* CSS fileselector {
+ /* CSS fileselector {
 property: value;
 }
 */
@@ -6,113 +6,100 @@ html {
 
 }
 
-.wrapper {
-
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-bottom: 0px;
+body{
+    font: 14px "helvetica neue";
+    font-weight: 200;
+    color: #000000;
+    background-color: #ffffff;
+    margin-top: 10px;
       max-width: 900px;
-}
-
-a{
-    color: #888888;
-
-}
-
-a:visited {
-  color: #888888;
 }
 
 a:hover {
   text-decoration: none;
 }
 
-.site-header {
-  box-sizing: border-box;
-  border-top: 1.5px solid #000000;
-  border-bottom: 1.5px solid #000000;
-  font: normal 16px "helvetica neu";
-  background-image: url('background1.jpeg');
-  background-color: #fffdfe;
-  margin: 0px 0px;
-  padding: 25px;
-  min-height: 55.95px;
-position: absolute;
-left: 0px;
-width: 100%;
+.site-sidebar {
+  border-right: 2px solid #D3D3D3;
+  position: absolute;
+  margin: -10px 0px 0px 2px;
+width: 200px;
+height: 100%;
+
+
 
 }
 
+
 .site-footer {
     border-top: 0px solid;
-    padding: 30px 0;
+    padding: 0px 0;
     font: normal 16px "helvetica neue";
 }
 
 .post-link, .post-link:visited {
-    display: block;
-    font-size: 24px;
-    font: normal 16px "helvetica neue";
+
+    font: 20px "helvetica neue"  ;
     color: #000000;
+      font-weight: 200;
 }
 
-.post-content  h3 {
+.post-content  {
     font-size: 20px;
-    font-weight: 500;
-    letter-spacing: .25px;
-    line-height: 1.75;
     color: #000000;
     margin-bottom: 0px;
-    margin-top: 0px;
 }
+
 .page-content {
-    padding: 0px 0PX;
-    box-sizing: border-box;
-    font: normal 14px "Fauna One",serif;
-    background-color: #fffdfe;
-    margin: 0 auto;
-    padding: 70px 25px 25px 25px;
+    padding: inherit;
+    font:  20px "helvetica neue"  ;
+      font-weight: 200;
+    background-color: #ffffff;
+    margin: 0px 0px 0px 220px;
       max-width: 900px;
 
 }
 
 .post-meta {
-    font-size: 14px;
+    font: 20px "helvetica neue"  ;
     color: #000000;
+      font-weight: 200;
 
 
 }
 
-body{
-    font: 14px "Fauna One",serif;
+
+.site-nav {
+  font: normal 30px "Poiret One", cursive;
+  line-height: 0px;
+  float: none;
+
+}
+
+.page-link {
+font: normal 30px "Poiret One", cursive;
+line-height: 0px;
+float: none;
+
+}
+
+.site-nav .page-link {
     color: #000000;
-    letter-spacing: .25px;
-    background-color: #fffdfe;
-    margin: 0 auto;
-    padding: 10px;
-      max-width: 900px;
-}
+    line-height: 4;
+  margin: 40px;
 
-.site-nav, .site-nav:visited {
-  color: #000000;
-  font: normal 16px "helvetica neue";
-    float: right;
-    line-height: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-      max-width: 900px;
-}
-
+  }
 
   .site-title, .site-title:visited {
-      color: #000000;
-      font: 30px "Domine", serif;
-    font-weight: 800;
-    line-height: 0px;
-    letter-spacing: -2px;
-    margin-bottom: 0px;
-    margin-top: 12px;
-    float: left;
+      color: #FFFFFF;
+      font: bold 60px "Poiret One", cursive;
+    margin-left: 15px;
+    float: none;
+      text-shadow:
+  		-1px -1px 0 #000,
+  		1px -1px 0 #000,
+  		-1px 1px 0 #000,
+  		1px 1px 0 #000;
 
 
 }
@@ -124,7 +111,8 @@ ul {
 
 p {
 
-  font: normal 14px "Fauna One", serif;
+  font: 20px "helvetica neue"    ;
+    font-weight: 200;
     color: #000000;
   margin-top: 0px;
     max-width: 900px;
@@ -132,9 +120,6 @@ p {
 
 h1 {
   font-size: 20px;
-  font-weight: 500;
-  letter-spacing: .25px;
-  line-height: 1.75;
   color: #000000;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -143,28 +128,30 @@ h1 {
 
 h2 {
   Margin-top: 0px;
-  font: normal 16px "Fauna One", serif;
+  font: 20px "helvetica neue"  ;
+    font-weight: 200;
   color: #000000;
-
-
 
 }
 
-.page-link {
-  color: #000000;
-  font: normal 16px "helvetica neue";
-
+h3 {
+  font: 20px "helvetica neue";
+  color: #FFFFFF;
+  text-align: center;
+    text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
 }
-
 .post-list {
-  padding: 15px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 
 }
 .post-title {
     font-size: 20px;
-    letter-spacing: 0px;
-    line-height: -1px;
-    padding: 23px 0px 0px 0px;
+letter-spacing: 0px;
+line-height: 1;
 
 }
 
