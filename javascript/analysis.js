@@ -1,9 +1,9 @@
+
+
     d3.json("http://search.lib.virginia.edu/catalog/u7004813.json", function(data) {
       console.log(data['response']['docs'][0]);
-
       // the code you're looking for
-      var needle = 'the';
-
+      var needle = 'a';
       // iterate over each element in the array
       for (var i = 0; i < data.length; i++){
         // look for the entry with a matching `code` value
