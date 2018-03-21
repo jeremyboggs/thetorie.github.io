@@ -1,5 +1,5 @@
 
-d3.json("http://search.lib.virginia.edu/catalog/u3703560.json", function (data)
+d3.json("https://search.lib.virginia.edu/catalog/u3703560.json", function (data)
  {
       console.log(data['response']['docs'][0]['title_display']);
       let needle1 = 'Cabell';
