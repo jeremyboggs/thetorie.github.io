@@ -15,7 +15,34 @@ var pack = d3.pack()
     .size([width, height])
     .padding(1.5);
 
-d3.csv("flare.csv", function(d) {
+d3.json("http://search.lib.virginia.edu/catalog/u3903400.json", function(d) {
+  console.log(d['response']['docs'][0]['title_display']);
+       let needle1 = 'Cabell';
+       let needle2 = 'Virginia';
+       let needle3 = 'music';
+       let data_parsed = d['response']['docs'][0];
+       let final_list = [];
+       Object.entries(data_parsed).map( (b) => {
+         let key = b[0];
+         let items = b[1];
+         if (typeof(key) === "number" || typeof(items) === "number"){
+           console.log('ignore');      }
+          else if (key.includes(needle1) || items.includes(needle1))        {
+
+           console.log("Related to Cabell Hall(s)");
+
+         }
+         else if (key.includes(needle2) || items.includes(needle2)) {
+
+              console.log("Related to Charlottesville");
+
+  }
+  else if (key.includes(needle3) || items.includes(needle3)) {
+      final_list.push(b);
+      console.log("Related to Music at UVa");
+    }
+
+
   d.value = +d.value;
   if (d.value) return d;
 }, function(error, classes) {
@@ -30,6 +57,7 @@ d3.csv("flare.csv", function(d) {
           d.package = id.slice(0, i);
           d.class = id.slice(i + 1);
         }
+  });
       });
 
   var node = svg.selectAll(".node")
