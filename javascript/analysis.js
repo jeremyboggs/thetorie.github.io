@@ -1,5 +1,5 @@
 
-d3.json("http://search.lib.virginia.edu/catalog/u2152808.json", function(data)
+d3.json("http://thetorie.github.io/javascript/testing.json", function(data)
  {
       console.log(data['response']['docs'][0]);
       let needle1 = 'Charlottesville';
